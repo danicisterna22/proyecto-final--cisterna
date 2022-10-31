@@ -1,0 +1,172 @@
+$colorUno: rgba(182, 174, 174, 0.938);
+$colorDos: rgba(39, 179, 39, 0.808);
+
+@mixin sections (){
+    background-color: green;
+    color: aliceblue;
+    border-radius: 15px;
+    margin: 10px;
+    &__titulo{
+        font-size: 2rem;
+        text-align: center;
+        padding: 10;
+    }
+    &__texto{
+        color: white;
+        line-height: 2;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    &__img{
+        width: 500px;
+        border-radius: 15px;
+        transition: all 2s;
+        &:hover{
+         transform: scale(1.1,1.1); 
+        }
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:$colorUno
+}
+.cabecera{
+    text-align: center;
+    padding: 5px;
+    
+    & .logo__cabaña {
+        width: 150px;
+        border-radius: 30px;
+        border: solid black 2px;
+        transition: all 2s;
+     &:hover{
+        transform: scale(1.1,1.1);
+        
+    }   
+ }
+       
+   & .titulo__principal{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s;
+    &:hover{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3rem;
+        color: black;
+    }
+  }
+}
+  
+ 
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-nav{
+    font-size: 1.5rem;
+}
+.titulo__img{
+    text-align: center;
+    & .logo-cabaña{
+        width: 130px;
+        border-radius: 30px;
+        border: solid black 2px;
+        margin:30px;
+    }
+   
+}
+main{
+    .section1{
+        @include sections()
+      }
+      .section2{
+        @include sections()
+      }
+      .section3{
+        @include sections()
+      }
+}
+.contenedor__redes{
+    
+    & .logos{
+        width: 60px;
+        
+    }
+}
+/*Sección galería*/
+.titulo__secundario{
+    color: $colorDos;
+    padding-top: 30px;
+    
+}
+.img__galeria{
+   border-radius: 30px;
+   margin: 30px;
+   height: 60vh;
+   padding: 20px;
+}
+   
+/*Sección extrem*/
+.apertura{
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+.img__extrem{
+    transition: all 1s;
+    &:hover{
+        transform: scale(1.1,1.1);
+        border-radius: 30px;
+        margin: 10px;
+}
+}
+
+  
+   
+ 
+
+.img__servicios{
+    border: solid 2px white;
+}
+        
+
+    
+
+
+
+  
+
+    
+    
+    
+      
+      
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+    
+      
+    
+
+       
+        
+        
+        
