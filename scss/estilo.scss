@@ -61,47 +61,26 @@ body{
     }
   }
 }
-  
- 
 .navbar-brand{
     font-size: 2rem;
 }
 .navbar-nav{
     font-size: 1.5rem;
 }
-.titulo__img{
-    text-align: center;
-    & .logo-cabaña{
-        width: 130px;
-        border-radius: 30px;
-        border: solid black 2px;
-        margin:30px;
-    }
-   
-}
-main{
-    .section1{
-        @include sections()
-      }
-      .section2{
-        @include sections()
-      }
-      .section3{
-        @include sections()
-      }
-}
+@import "footer";
+
+@import "main";
+
 .contenedor__redes{
-    
     & .logos{
         width: 60px;
-        
     }
 }
+
 /*Sección galería*/
 .titulo__secundario{
     color: $colorDos;
     padding-top: 30px;
-    
 }
 .img__galeria{
    border-radius: 30px;
@@ -109,7 +88,7 @@ main{
    height: 60vh;
    padding: 20px;
 }
-   
+    
 /*Sección extrem*/
 .apertura{
         font-size: 1.5rem;
@@ -124,13 +103,20 @@ main{
 }
 }
 
-  
-   
- 
-
+/*Sección servicios*/
 .img__servicios{
     border: solid 2px white;
 }
+   
+
+ 
+    
+   
+
+
+  
+   
+
         
 
     

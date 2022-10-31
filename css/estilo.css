@@ -32,6 +32,7 @@ body {
 .navbar-nav {
   font-size: 1.5rem; }
 
+/*Sección pie de página*/
 .titulo__img {
   text-align: center; }
   .titulo__img .logo-cabaña {
@@ -132,5 +133,6 @@ main .section3 {
     border-radius: 30px;
     margin: 10px; }
 
+/*Sección servicios*/
 .img__servicios {
   border: solid 2px white; }

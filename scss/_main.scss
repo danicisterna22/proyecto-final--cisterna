@@ -1,0 +1,11 @@
+main{
+    .section1{
+        @include sections()
+      }
+      .section2{
+        @include sections()
+      }
+      .section3{
+        @include sections()
+      }
+}

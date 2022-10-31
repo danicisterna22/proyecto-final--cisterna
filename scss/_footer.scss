@@ -1,0 +1,10 @@
+/*Sección pie de página*/
+.titulo__img{
+    text-align: center;
+    & .logo-cabaña{
+        width: 130px;
+        border-radius: 30px;
+        border: solid black 2px;
+        margin:30px;
+    }
+}
